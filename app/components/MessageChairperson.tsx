@@ -4,8 +4,8 @@ import React from "react";
 const MessageChairperson = () => {
   return (
     <div className=" flex items-center w-full h-[90vh] my-20 bg-homeGrey  px-14 border ">
-      <div className="basis-1/3 w-full border border-blue-gray-900">
-        <div className="relative border border-blue-gray-900 w-full">
+      <div className="basis-1/3 w-100 h border border-blue-gray-900">
+        {/* <div className="border border-blue-gray-900 w-full">
           <Image
             src={"/chairperson.png"}
             width={330}
@@ -33,7 +33,7 @@ const MessageChairperson = () => {
             Mr. John Doe
           </h1>
           <div className="h1 text-white text-xs mx-auto italic">Chairman</div>
-        </div>
+        </div> */}
       </div>
 
       <div className="basis-2/3 p-8 bg-homeGrey rounded-2xl ">

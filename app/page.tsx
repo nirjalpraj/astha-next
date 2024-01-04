@@ -5,15 +5,21 @@ import CarouselImage from "./components/CarouselImage";
 import MessageChairperson from "./components/MessageChairperson";
 import Help from "./components/Help";
 import AboutUs from "./components/AboutUs";
+import MessageFounder from "./components/MessageFounder";
+import CarouselComponent from "./components/CarouselComponent";
+import ContactUs from "./components/ContactUs";
 
 export default function Home() {
   return (
     <main>
       <TopBar />
       <AppBar />
+      <CarouselComponent />
       <AboutUs />
       <MessageChairperson />
+      <MessageFounder />
       <Help />
+      <ContactUs />
     </main>
   );
 }

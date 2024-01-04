@@ -6,7 +6,7 @@ import { service } from "../data/service";
 
 const ServiceCard = (serviceData: service) => {
   return (
-    <div className="w-[18.75rem] h-100 flex flex-col items-start">
+    <div className="w-[18rem] h-100 flex flex-col items-start">
       <Image
         alt=""
         src={serviceData.image}

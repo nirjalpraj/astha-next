@@ -11,7 +11,7 @@ const Notice = () => {
         return (
           <div
             className={`flex flex-col p-2 gap-y-2 ${
-              index === 1 ? `border-y-1` : `border-y-0`
+              index === 1 ? `border-y-2` : `border-y-0`
             } `}
           >
             <div className="font-semibold text-base">{notice.title}</div>

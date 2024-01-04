@@ -8,15 +8,19 @@ const Help = () => {
       <h1 className="text-5xl  font-bold mx-auto">
         How We Can <span className="text-normal">Help You </span>
       </h1>
-      <div className="flex flex-row justify-around mt-10">
-        {serviceHome.map((item: service) => {
+      <div className="flex flex-row justify-center mt-10">
+        {serviceHome.map((item: service, index: number) => {
           return (
-            <ServiceCard
-              title={item.title}
-              image={item.image}
-              desc={item.desc}
-              benefits={item.benefits}
-            />
+            <div
+              className={`${index === 1 ? "border-x-2" : "border-x-0"} px-14`}
+            >
+              <ServiceCard
+                title={item.title}
+                image={item.image}
+                desc={item.desc}
+                benefits={item.benefits}
+              />
+            </div>
           );
         })}
       </div>
