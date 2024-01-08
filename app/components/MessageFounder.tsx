@@ -3,7 +3,7 @@ import React from "react";
 
 const MessageFounder = () => {
   return (
-    <div className=" flex  w-full h-[90vh] my-20 px-14 border ">
+    <div className=" flex  w-full h-[75vh] my-20 px-5">
       <div className="basis-2/3 p-8 rounded-2xl ">
         <h4 className="text-5xl text-[#0C164B] font-bold">
           Message from Founder
@@ -30,10 +30,10 @@ const MessageFounder = () => {
           Read More
         </button>
       </div>
-      <div className="basis-1/3 w-100 h border border-blue-gray-900">
-        {/* <div className="border border-blue-gray-900 w-full">
+      <div className="basis-1/3 w-100 ">
+        <div className="relative  w-full">
           <Image
-            src={"/chairperson.png"}
+            src={"/founder.png"}
             width={330}
             height={250}
             className="absolute top-0 left-10 z-20 "
@@ -44,7 +44,7 @@ const MessageFounder = () => {
             src={"/blob1.png"}
             width={370}
             height={230}
-            className="absolute top-10 left-8 z-10 "
+            className="absolute top-16 left-8 z-10 "
             alt="chairperson"
           />
 
@@ -52,14 +52,16 @@ const MessageFounder = () => {
             src={"/blob2.png"}
             width={320}
             height={230}
-            className=" absolute z-0 top-7 left-24"
+            className=" absolute z-0 top-28 left-24"
             alt="chairperson"
           />
-          <h1 className="absoulte z-10 top-10 left-20 text-white text-lg font-bold">
+          <h1 className="absolute z-40 top-[345px] text-white left-36 text-lg font-bold">
             Mr. John Doe
           </h1>
-          <div className="h1 text-white text-xs mx-auto italic">Chairman</div>
-        </div> */}
+          <p className="absolute z-40 top-[375px] left-44  text-white text-xs  italic">
+            Cofounder
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -3,14 +3,14 @@ import React from "react";
 
 const MessageChairperson = () => {
   return (
-    <div className=" flex items-center w-full h-[90vh] my-20 bg-homeGrey  px-14 border ">
-      <div className="basis-1/3 w-100 h border border-blue-gray-900">
-        {/* <div className="border border-blue-gray-900 w-full">
+    <div className=" flex items-center w-full h-[90vh] my-20 bg-homeGrey  px-10">
+      <div className="basis-1/3 w-100 mr-7 ">
+        <div className="relative h-100   w-full">
           <Image
             src={"/chairperson.png"}
             width={330}
             height={250}
-            className="absolute top-0 left-10 z-20 "
+            className="absolute top-14 left-10 z-20 "
             alt="chairperson"
           />
 
@@ -18,22 +18,24 @@ const MessageChairperson = () => {
             src={"/blob1.png"}
             width={370}
             height={230}
-            className="absolute top-10 left-8 z-10 "
+            className="absolute top-24 left-9 z-10 "
             alt="chairperson"
           />
 
           <Image
             src={"/blob2.png"}
-            width={320}
-            height={230}
-            className=" absolute z-0 top-7 left-24"
+            width={340}
+            height={260}
+            className=" absolute z-0 top-24 left-20"
             alt="chairperson"
           />
-          <h1 className="absoulte z-10 top-10 left-20 text-white text-lg font-bold">
+          <h1 className="absolute z-20 top-[400px] left-36 text-white text-lg font-bold">
             Mr. John Doe
           </h1>
-          <div className="h1 text-white text-xs mx-auto italic">Chairman</div>
-        </div> */}
+          <p className="absolute text-white z-20 top-[425px] left-44 text-xs  italic">
+            Chairman
+          </p>
+        </div>
       </div>
 
       <div className="basis-2/3 p-8 bg-homeGrey rounded-2xl ">

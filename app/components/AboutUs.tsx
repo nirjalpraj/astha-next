@@ -4,7 +4,7 @@ import Notice from "./Notice";
 
 const AboutUs = () => {
   return (
-    <div className=" flex items-center  w-full h-[60vh] my-20  px-14 ">
+    <div className=" flex items-center  w-full h-[60vh] my-20  pl-5 pr-14 ">
       <div className="basis-2/3 p-8 text-justify ">
         <h4 className="text-5xl text-[#0C164B] font-bold">About Aastha</h4>
         <h5 className="uppercase text-lg font-light mt-3 mb-6">

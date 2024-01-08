@@ -7,10 +7,10 @@ import { contactHome, contact } from "../data/contact";
 
 const ContactUs = () => {
   return (
-    <div className=" flex flex-col  w-full h-[90vh] my-20 bg-homeGrey  px-14 border ">
+    <div className=" flex flex-col  w-full h-[80vh] my-20  px-14  ">
       <h4 className="text-5xl text-[#0C164B] font-bold my-5">Contact Us</h4>
 
-      <div className="flex flex-row border">
+      <div className="flex flex-row ">
         <section className="basis-4/6">
           <div className="w-full my-4">
             <Input color="teal" label="Full Name" crossOrigin="" />
@@ -33,12 +33,14 @@ const ContactUs = () => {
             Send Message
           </button>
         </section>
-        <section className="basis-2/6">
-          <div className="flex flex-col items-center w-full ">
+        <section className="basis-2/6 ">
+          <div className="flex flex-col mt-5 w-[50%] mx-auto  ">
             {contactHome.map((item: contact) => {
               return (
-                <div className="">
-                  <h4>{item.title}</h4>
+                <div className="my-2">
+                  <h4 className="uppercase text-[#0C164B] text-xl">
+                    {item.title}
+                  </h4>
                   <p>{item.desc}</p>
                 </div>
               );
