@@ -3,6 +3,7 @@ import TopBar from "../components/TopBar";
 import AppBar from "../components/AppBar";
 import OurVision from "./components/OurVision";
 import Planning from "./components/Planning";
+import OurMission from "./components/OurMission";
 
 const About = () => {
   return (
@@ -22,6 +23,7 @@ const About = () => {
         </div>
       </div>
       <OurVision />
+      <OurMission />
       <Planning />
     </main>
   );

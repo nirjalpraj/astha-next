@@ -3,7 +3,7 @@ import React from "react";
 
 const Planning = () => {
   return (
-    <div className="  w-full h-[75vh] my-20 px-14">
+    <div className="  w-full h-[75vh] my-10 px-14">
       <div className="flex items-center p-10 bg-homeGrey h-full rounded-xl ">
         <div className="basis-1/2 p-8 rounded-2xl ">
           <h4 className="text-5xl text-[#0C164B] font-bold">Planning</h4>
