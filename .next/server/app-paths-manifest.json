@@ -1,3 +1,5 @@
 {
-  "/bod/page": "app/bod/page.js"
+  "/gallery/page": "app/gallery/page.js",
+  "/gallery/[galleryId]/page": "app/gallery/[galleryId]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
