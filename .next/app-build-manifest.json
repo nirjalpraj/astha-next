@@ -16,10 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/gallery/page.js"
     ],
-    "/gallery/[galleryId]/page": [
+    "/management-comittee/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/gallery/[galleryId]/page.js"
+      "static/chunks/app/management-comittee/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
+    ],
+    "/news-notices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news-notices/page.js"
     ]
   }
 }

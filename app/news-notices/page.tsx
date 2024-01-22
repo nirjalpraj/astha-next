@@ -15,13 +15,23 @@ export default function Home() {
       <div className="flex flex-row px-14  gap-4 my-5">
         <section className="basis-1/4 ">
           <div className="flex flex-col gap-2 py-7 sticky top-20 ">
-            <Button className="rounded-full w-52" color="green">
+            <Button
+              placeholder={""}
+              className="rounded-full w-52"
+              color="green"
+            >
               All News and Notices
             </Button>
-            <Button className="rounded-full w-24 bg-gray-200 text-black font-light">
+            <Button
+              placeholder={""}
+              className="rounded-full w-24 bg-gray-200 text-black font-light"
+            >
               News
             </Button>
-            <Button className="rounded-full w-24 bg-gray-200 text-black font-light">
+            <Button
+              placeholder={""}
+              className="rounded-full w-24 bg-gray-200 text-black font-light"
+            >
               Notices
             </Button>
           </div>
