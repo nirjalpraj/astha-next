@@ -25,13 +25,11 @@ export default function Home() {
   ];
   return (
     <main>
-      <TopBar />
-      <AppBar />
       <div className="flex flex-row px-14  gap-4 my-5">
         <section className="basis-1/6  ">
           <div className="flex flex-col gap-2 ">
             <h5 className="font-semibold">Filter by Year</h5>
-            <Select label="Select Year" color="green">
+            <Select placeholder={""} label="Select Year" color="green">
               {years.map((year: string) => {
                 return <Option>{year}</Option>;
               })}

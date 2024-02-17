@@ -10,8 +10,6 @@ import NewsCard from "../components/NewsCard";
 export default function Home() {
   return (
     <main>
-      <TopBar />
-      <AppBar />
       <div className="flex flex-row px-14  gap-4 my-5">
         <section className="basis-1/4 ">
           <div className="flex flex-col gap-2 py-7 sticky top-20 ">

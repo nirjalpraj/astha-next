@@ -99,7 +99,7 @@ eval("/* __next_internal_client_entry_do_not_use__  cjs */ \nObject.defineProper
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-module.exports = createProxy("/home/nirjal/Documents/astha-next/node_modules/.pnpm/@mui+icons-material@5.15.4_@mui+material@5.15.4_@types+react@18.2.47_react@18.2.0/node_modules/@mui/icons-material/HandshakeOutlined.js");
+module.exports = createProxy("G:\\astha-next\\node_modules\\.pnpm\\@mui+icons-material@5.15.4_@mui+material@5.15.4_@types+react@18.2.47_react@18.2.0\\node_modules\\@mui\\icons-material\\HandshakeOutlined.js");
 
 
 /***/ }),
@@ -112,7 +112,7 @@ module.exports = createProxy("/home/nirjal/Documents/astha-next/node_modules/.pn
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-module.exports = createProxy("/home/nirjal/Documents/astha-next/node_modules/.pnpm/@mui+icons-material@5.15.4_@mui+material@5.15.4_@types+react@18.2.47_react@18.2.0/node_modules/@mui/icons-material/SchoolOutlined.js");
+module.exports = createProxy("G:\\astha-next\\node_modules\\.pnpm\\@mui+icons-material@5.15.4_@mui+material@5.15.4_@types+react@18.2.47_react@18.2.0\\node_modules\\@mui\\icons-material\\SchoolOutlined.js");
 
 
 /***/ })

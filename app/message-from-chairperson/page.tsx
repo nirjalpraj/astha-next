@@ -7,8 +7,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <TopBar />
-      <AppBar />
       <div className="flex flex-col px-14">
         <h1 className="mx-auto text-5xl font-bold text-[#0C164B] my-6">
           Message From Chairperson

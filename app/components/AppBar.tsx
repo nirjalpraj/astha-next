@@ -238,7 +238,7 @@ function NavList() {
       <Typography
         placeholder={""}
         as="a"
-        href="#"
+        href="/gallery"
         // variant="s"
         color="blue-gray"
         className="font-medium mr-5"
@@ -275,7 +275,7 @@ function NavList() {
       >
         <ListItem
           placeholder={""}
-          className="flex items-center gap-2 text-[1.09rem] py-2 pr-0 "
+          className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
           Downloads
         </ListItem>

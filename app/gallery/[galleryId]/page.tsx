@@ -46,18 +46,16 @@ export default function Home() {
   ];
   return (
     <main>
-      <TopBar />
-      <AppBar />
       <div className="flex flex-row px-14  gap-4 my-5">
         <div className="flex flex-col">
           <h1 className="text-lg font-semibold text-[#0C164B] mx-auto my-6">
             Staff Orientation Programme 2079-03-06, Bhaktapur
           </h1>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-4">
             {data.map(({ imageLink }, index) => (
               <div key={index}>
                 <img
-                  className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+                  className="h-44 w-full max-w-full rounded object-cover object-center"
                   src={imageLink}
                   alt="gallery-photo"
                 />

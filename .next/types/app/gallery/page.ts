@@ -1,4 +1,4 @@
-// File: /home/nirjal/Documents/astha-next/app/gallery/page.tsx
+// File: G:\astha-next\app\gallery\page.tsx
 import * as entry from '../../../../app/gallery/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

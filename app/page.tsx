@@ -12,8 +12,6 @@ import ContactUs from "./components/ContactUs";
 export default function Home() {
   return (
     <main>
-      <TopBar />
-      <AppBar />
       <CarouselComponent />
       <AboutUs />
       <MessageChairperson />
