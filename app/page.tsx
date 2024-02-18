@@ -17,7 +17,7 @@ export default function Home() {
       <MessageChairperson />
       <MessageFounder />
       <Help />
-      <ContactUs />
+      <ContactUs title="Contact Us" />
     </main>
   );
 }

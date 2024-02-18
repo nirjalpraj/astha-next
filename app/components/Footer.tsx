@@ -13,7 +13,7 @@ const LINKS = [
   },
   {
     title: "Quick Link",
-    items: ["About us", "Careers", "Press", "News"],
+    items: ["About us", "Careers", "News"],
   },
   {
     title: "Contact Us",
@@ -27,12 +27,12 @@ export default function Footer() {
   return (
     <footer className="relative w-full bg-[#000625] py-8 mt-16">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2 border border-white">
           <Typography
             placeholder={""}
             color="white"
             variant="h5"
-            className="mb-6"
+            className="mb-6 "
           >
             A a s t h a L o g o
           </Typography>

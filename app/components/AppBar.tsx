@@ -206,7 +206,7 @@ function NavList() {
       <Typography
         placeholder={""}
         as="a"
-        href="#"
+        href="/publication"
         // variant="small"
         color="blue-gray"
         className="mr-5"
@@ -253,7 +253,7 @@ function NavList() {
       <Typography
         placeholder={""}
         as="a"
-        href="#"
+        href="/contact-us"
         // variant="s"
         color="blue-gray"
         className="mr-5"

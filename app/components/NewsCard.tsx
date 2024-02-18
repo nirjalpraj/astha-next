@@ -25,7 +25,7 @@ const NewsCard = () => {
         business on society and minimize negative impacts.
       </p>
       <div className="flex flex-row mt-5">
-        <Button variant="outlined" color="green">
+        <Button placeholder={""} variant="outlined" color="green">
           Read More
         </Button>
       </div>

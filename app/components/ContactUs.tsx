@@ -5,10 +5,18 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import React from "react";
 import { contactHome, contact } from "../data/contact";
 
-const ContactUs = () => {
+interface contactUs {
+  title: string;
+}
+
+const ContactUs = ({ title }: contactUs) => {
   return (
-    <div className=" flex flex-col  w-full h-[80vh] my-20  px-14  ">
-      <h4 className="text-5xl text-[#0C164B] font-bold my-5">Contact Us</h4>
+    <div
+      className={` flex flex-col  w-full h-[80vh] ${
+        title === "Contact Us" ? "my-20" : "my-5"
+      }  px-14  `}
+    >
+      <h4 className="text-5xl text-[#0C164B] font-bold my-5">{title}</h4>
 
       <div className="flex flex-row ">
         <section className="basis-4/6">

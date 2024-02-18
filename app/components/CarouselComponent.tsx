@@ -3,7 +3,12 @@ import { Carousel } from "@material-tailwind/react";
 
 const CarouselComponent = () => {
   return (
-    <Carousel transition={{ duration: 1.5 }} autoplay className=" h-[60vh]">
+    <Carousel
+      placeholder={""}
+      transition={{ duration: 1.5 }}
+      autoplay
+      className=" h-[60vh]"
+    >
       <img
         src="/landing.png"
         alt="image 1"

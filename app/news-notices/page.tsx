@@ -1,8 +1,4 @@
 "use client";
-import AppBar from "../components/AppBar";
-import TopBar from "../components/TopBar";
-
-import Members from "../components/Members";
 import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import NewsCard from "../components/NewsCard";
