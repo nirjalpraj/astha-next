@@ -3,5 +3,7 @@
   "/publication/page": "app/publication/page.js",
   "/savings/page": "app/savings/page.js",
   "/about/page": "app/about/page.js",
-  "/message-from-chairperson/page": "app/message-from-chairperson/page.js"
+  "/message-from-chairperson/page": "app/message-from-chairperson/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/contact-us/page": "app/contact-us/page.js"
 }
