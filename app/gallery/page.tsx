@@ -1,5 +1,5 @@
 "use client";
-import AppBar from "../components/AppBar";
+import AppBar from "../components/AppBar/AppBar";
 import TopBar from "../components/TopBar";
 
 import Members from "../components/Members";

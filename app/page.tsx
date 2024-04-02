@@ -1,6 +1,6 @@
 import Image from "next/image";
 import TopBar from "./components/TopBar";
-import AppBar from "./components/AppBar";
+import AppBar from "./components/AppBar/AppBar";
 import CarouselImage from "./components/CarouselImage";
 import MessageChairperson from "./components/MessageChairperson";
 import Help from "./components/Help";

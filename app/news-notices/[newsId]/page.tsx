@@ -1,6 +1,6 @@
 "use client";
 
-import AppBar from "@/app/components/AppBar";
+import AppBar from "@/app/components/AppBar/AppBar";
 import Notice from "@/app/components/Notice";
 import TopBar from "@/app/components/TopBar";
 

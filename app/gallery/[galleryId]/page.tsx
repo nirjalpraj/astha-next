@@ -1,5 +1,5 @@
 "use client";
-import AppBar from "@/app/components/AppBar";
+import AppBar from "@/app/components/AppBar/AppBar";
 import GalleryCover from "@/app/components/GalleryCover";
 import TopBar from "@/app/components/TopBar";
 import { gallery, photoGallery } from "@/app/data/gallery";

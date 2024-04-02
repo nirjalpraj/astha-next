@@ -1,7 +1,7 @@
 {
-  "/contact-us/page": "app/contact-us/page.js",
+  "/management-comittee/page": "app/management-comittee/page.js",
+  "/publication/page": "app/publication/page.js",
   "/savings/page": "app/savings/page.js",
-  "/news-notices/page": "app/news-notices/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/page": "app/page.js"
+  "/about/page": "app/about/page.js",
+  "/message-from-chairperson/page": "app/message-from-chairperson/page.js"
 }
