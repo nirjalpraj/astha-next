@@ -1,6 +1,6 @@
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[2].use[1]!./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[2].use[2]!./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
   font-family: '__Inter_aaf875';
@@ -67,11 +67,11 @@
 }.__className_aaf875 {font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';font-style: normal
 }
 
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/.pnpm/next@14.0.3_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
 /*
-! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -251,6 +251,7 @@ textarea {
   font-size: 100%; /* 1 */
   font-weight: inherit; /* 1 */
   line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
   color: inherit; /* 1 */
   margin: 0; /* 2 */
   padding: 0; /* 3 */
@@ -271,9 +272,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
   -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
@@ -513,6 +514,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 ::backdrop {
@@ -563,6 +568,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 .container {
   width: 100%;
@@ -636,14 +645,8 @@ video {
 .-left-1 {
   left: -0.25rem;
 }
-.-top-1 {
-  top: -0.25rem;
-}
 .-top-1\.5 {
   top: -0.375rem;
-}
-.-top-2 {
-  top: -0.5rem;
 }
 .-top-2\.5 {
   top: -0.625rem;
@@ -894,9 +897,6 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.ml-0 {
-  margin-left: 0px;
-}
 .ml-0\.5 {
   margin-left: 0.125rem;
 }
@@ -945,9 +945,6 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-12 {
-  margin-top: 3rem;
-}
 .mt-16 {
   margin-top: 4rem;
 }
@@ -972,9 +969,6 @@ video {
 .mt-px {
   margin-top: 1px;
 }
-.ml-10 {
-  margin-left: 2.5rem;
-}
 .box-border {
   box-sizing: border-box;
 }
@@ -995,9 +989,6 @@ video {
 }
 .hidden {
   display: none;
-}
-.h-0 {
-  height: 0px;
 }
 .h-0\.5 {
   height: 0.125rem;
@@ -1114,13 +1105,6 @@ video {
 .h-screen {
   height: 100vh;
 }
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.h-40 {
-  height: 10rem;
-}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1150,9 +1134,6 @@ video {
 }
 .min-h-\[48px\] {
   min-height: 48px;
-}
-.w-0 {
-  width: 0px;
 }
 .w-0\.5 {
   width: 0.125rem;
@@ -1285,22 +1266,6 @@ video {
 .min-w-\[95\%\] {
   min-width: 95%;
 }
-.min-w-full {
-  min-width: 100%;
-}
-.min-w-fit {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-}
-.min-w-\[85\%\] {
-  min-width: 85%;
-}
-.min-w-\[70\%\] {
-  min-width: 70%;
-}
-.min-w-\[60\%\] {
-  min-width: 60%;
-}
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -1381,9 +1346,6 @@ video {
 }
 .basis-full {
   flex-basis: 100%;
-}
-.basis-10 {
-  flex-basis: 2.5rem;
 }
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
@@ -1510,9 +1472,6 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-start {
-  justify-content: flex-start;
-}
 .justify-end {
   justify-content: flex-end;
 }
@@ -1539,9 +1498,6 @@ video {
 }
 .gap-4 {
   gap: 1rem;
-}
-.gap-8 {
-  gap: 2rem;
 }
 .gap-x-4 {
   -moz-column-gap: 1rem;
@@ -1905,10 +1861,6 @@ video {
 }
 .border-t-transparent {
   border-top-color: transparent;
-}
-.\!bg-blue-gray-50 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(236 239 241 / var(--tw-bg-opacity)) !important;
 }
 .bg-\[\#000625\] {
   --tw-bg-opacity: 1;
@@ -2405,9 +2357,6 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.p-20 {
-  padding: 5rem;
-}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2419,6 +2368,10 @@ video {
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
+}
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -2451,6 +2404,10 @@ video {
 .px-px {
   padding-left: 1px;
   padding-right: 1px;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 .py-1 {
   padding-top: 0.25rem;
@@ -2488,30 +2445,11 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.py-0\.5 {
-  padding-top: 0.125rem;
-  padding-bottom: 0.125rem;
-}
 .\!pr-7 {
   padding-right: 1.75rem !important;
 }
 .\!pr-9 {
   padding-right: 2.25rem !important;
-}
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 .pb-1\.5 {
   padding-bottom: 0.375rem;
@@ -2534,9 +2472,6 @@ video {
 .pr-8 {
   padding-right: 2rem;
 }
-.pt-0 {
-  padding-top: 0px;
-}
 .pt-0\.5 {
   padding-top: 0.125rem;
 }
@@ -2555,9 +2490,6 @@ video {
 .pt-px {
   padding-top: 1px;
 }
-.pl-2 {
-  padding-left: 0.5rem;
-}
 .text-left {
   text-align: left;
 }
@@ -2569,9 +2501,6 @@ video {
 }
 .text-start {
   text-align: start;
-}
-.text-end {
-  text-align: end;
 }
 .align-middle {
   vertical-align: middle;
@@ -2705,6 +2634,10 @@ video {
 .text-\[\#0C164B\] {
   --tw-text-opacity: 1;
   color: rgb(12 22 75 / var(--tw-text-opacity));
+}
+.text-\[\#2C4373\] {
+  --tw-text-opacity: 1;
+  color: rgb(44 67 115 / var(--tw-text-opacity));
 }
 .text-\[\#444444\] {
   --tw-text-opacity: 1;
@@ -2971,15 +2904,8 @@ video {
   --tw-text-opacity: 1;
   color: rgb(245 127 23 / var(--tw-text-opacity));
 }
-.text-\[\#2C4373\] {
-  --tw-text-opacity: 1;
-  color: rgb(44 67 115 / var(--tw-text-opacity));
-}
 .underline {
   text-decoration-line: underline;
-}
-.underline-offset-1 {
-  text-underline-offset: 1px;
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -3206,17 +3132,17 @@ video {
 .backdrop-blur-2xl {
   --tw-backdrop-blur: blur(40px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .backdrop-saturate-200 {
   --tw-backdrop-saturate: saturate(2);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -3347,11 +3273,6 @@ body {
   display: block;
 }
 
-.before\:h-1::before {
-  content: var(--tw-content);
-  height: 0.25rem;
-}
-
 .before\:h-1\.5::before {
   content: var(--tw-content);
   height: 0.375rem;
@@ -3375,11 +3296,6 @@ body {
 .before\:w-12::before {
   content: var(--tw-content);
   width: 3rem;
-}
-
-.before\:w-2::before {
-  content: var(--tw-content);
-  width: 0.5rem;
 }
 
 .before\:w-2\.5::before {
@@ -3632,11 +3548,6 @@ body {
   bottom: -0.375rem;
 }
 
-.after\:-bottom-2::after {
-  content: var(--tw-content);
-  bottom: -0.5rem;
-}
-
 .after\:-bottom-2\.5::after {
   content: var(--tw-content);
   bottom: -0.625rem;
@@ -3662,19 +3573,9 @@ body {
   display: block;
 }
 
-.after\:h-1::after {
-  content: var(--tw-content);
-  height: 0.25rem;
-}
-
 .after\:h-1\.5::after {
   content: var(--tw-content);
   height: 0.375rem;
-}
-
-.after\:w-2::after {
-  content: var(--tw-content);
-  width: 0.5rem;
 }
 
 .after\:w-2\.5::after {
@@ -4399,22 +4300,18 @@ body {
   color: rgb(38 50 56 / var(--tw-text-opacity));
 }
 
-.hover\:text-light-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(3 169 244 / var(--tw-text-opacity));
-}
-
 .hover\:text-green-900:hover {
   --tw-text-opacity: 1;
   color: rgb(27 94 32 / var(--tw-text-opacity));
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
+.hover\:text-light-blue-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(3 169 244 / var(--tw-text-opacity));
 }
 
-.hover\:underline-offset-4:hover {
-  text-underline-offset: 4px;
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-100:hover {
@@ -5872,10 +5769,6 @@ body {
     margin-bottom: 0px;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:w-2\/3 {
     width: 66.666667%;
   }
@@ -5924,32 +5817,12 @@ body {
     max-width: 83.333333%;
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:text-center {
@@ -6029,10 +5902,6 @@ body {
 
   .lg\:basis-1\/3 {
     flex-basis: 33.333333%;
-  }
-
-  .lg\:basis-2\/3 {
-    flex-basis: 66.666667%;
   }
 
   .lg\:flex-row {
@@ -6233,8 +6102,16 @@ body {
   height: 1.25rem;
 }
 
+.\[\&\:\:-webkit-slider-thumb\]\:w-2::-webkit-slider-thumb {
+  width: 0.5rem;
+}
+
 .\[\&\:\:-webkit-slider-thumb\]\:w-2\.5::-webkit-slider-thumb {
   width: 0.625rem;
+}
+
+.\[\&\:\:-webkit-slider-thumb\]\:w-3::-webkit-slider-thumb {
+  width: 0.75rem;
 }
 
 .\[\&\:\:-webkit-slider-thumb\]\:w-3\.5::-webkit-slider-thumb {
