@@ -36,6 +36,8 @@ const page = () => {
             {data.map((item: data) => {
               return (
                 <Button
+                  onPointerEnterCapture={""}
+                  onPointerLeaveCapture={""}
                   placeholder={""}
                   className={`rounded-full w-52 ${
                     item.active
