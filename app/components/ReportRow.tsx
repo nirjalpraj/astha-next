@@ -7,6 +7,8 @@ const ReportRow = ({ title }: any) => {
       <div className="basis-3/4 my-auto font-semibold  ">{title}</div>
       <div className="basis-1/4">
         <Button
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           variant="outlined"
           placeholder={""}
           color="green"
