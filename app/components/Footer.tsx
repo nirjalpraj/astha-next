@@ -74,6 +74,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:flex lg:flex-row justify-between gap-4   ">
           <div className="sm:basis-full lg:basis-1/3">
             <Typography
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               color="white"
               variant="h5"
@@ -84,6 +86,8 @@ export default function Footer() {
 
             <div className=" flex gap-4 text-white sm:justify-center ">
               <Typography
+                onPointerEnterCapture={""}
+                onPointerLeaveCapture={""}
                 placeholder={""}
                 as="a"
                 href="#"
@@ -103,6 +107,8 @@ export default function Footer() {
                 </svg>
               </Typography>
               <Typography
+                onPointerEnterCapture={""}
+                onPointerLeaveCapture={""}
                 placeholder={""}
                 as="a"
                 href="#"
@@ -122,6 +128,8 @@ export default function Footer() {
                 </svg>
               </Typography>
               <Typography
+                onPointerEnterCapture={""}
+                onPointerLeaveCapture={""}
                 placeholder={""}
                 as="a"
                 href="#"
@@ -143,6 +151,8 @@ export default function Footer() {
             {LINKS.map((item, index) => (
               <ul key={index}>
                 <Typography
+                  onPointerEnterCapture={""}
+                  onPointerLeaveCapture={""}
                   placeholder={""}
                   variant="small"
                   color="white"
@@ -153,6 +163,8 @@ export default function Footer() {
                 {item.items?.map((subItem, index) => (
                   <li key={index}>
                     <Typography
+                      onPointerEnterCapture={""}
+                      onPointerLeaveCapture={""}
                       placeholder={""}
                       as="a"
                       color="white"
@@ -177,6 +189,8 @@ export default function Footer() {
         </div>
         <div className="mt-5 flex w-full  border-t border-blue-gray-50 py-1">
           <Typography
+            onPointerEnterCapture={""}
+            onPointerLeaveCapture={""}
             placeholder={""}
             variant="small"
             className="mb-1 basis-full text-start md:text-center text-blue-gray-900 md:mb-0"
