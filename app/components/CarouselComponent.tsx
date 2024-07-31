@@ -4,6 +4,8 @@ import { Carousel } from "@material-tailwind/react";
 const CarouselComponent = () => {
   return (
     <Carousel
+      onPointerEnterCapture={""}
+      onPointerLeaveCapture={""}
       placeholder={""}
       transition={{ duration: 1.5 }}
       autoplay
