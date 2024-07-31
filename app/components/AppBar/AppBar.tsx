@@ -37,11 +37,15 @@ import AboutUsMenu from "./subcomponents/AboutUsMenu";
 function NavList() {
   return (
     <List
+      onPointerEnterCapture={""}
+      onPointerLeaveCapture={""}
       placeholder={""}
       className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1"
     >
       <Typography
         placeholder={""}
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         as="a"
         href="/"
         // variant="small"
@@ -49,6 +53,8 @@ function NavList() {
         className="mr-5"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
@@ -60,6 +66,8 @@ function NavList() {
 
       <Typography
         placeholder={""}
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         as="a"
         href="/publication"
         // variant="small"
@@ -67,6 +75,8 @@ function NavList() {
         className="mr-5"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2   "
         >
@@ -76,6 +86,8 @@ function NavList() {
       <ElaboratedServiceMenu />
 
       <Typography
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         placeholder={""}
         as="a"
         href="/news-notices"
@@ -84,6 +96,8 @@ function NavList() {
         className="mr-5"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
@@ -91,6 +105,8 @@ function NavList() {
         </ListItem>
       </Typography>
       <Typography
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         placeholder={""}
         as="a"
         href="/gallery"
@@ -99,6 +115,8 @@ function NavList() {
         className="font-medium mr-5"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
@@ -106,6 +124,8 @@ function NavList() {
         </ListItem>
       </Typography>
       <Typography
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         placeholder={""}
         as="a"
         href="/contact-us"
@@ -114,6 +134,8 @@ function NavList() {
         className="mr-5"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
@@ -121,6 +143,8 @@ function NavList() {
         </ListItem>
       </Typography>
       <Typography
+        onPointerEnterCapture={""}
+        onPointerLeaveCapture={""}
         placeholder={""}
         as="a"
         href="#"
@@ -129,6 +153,8 @@ function NavList() {
         className="font-medium"
       >
         <ListItem
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="flex items-center gap-2 text-[1.09rem] py-2  "
         >
@@ -153,6 +179,8 @@ const AppBar = () => {
     <main className="mx-auto px-14 py-2">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           as="a"
           href="#"
@@ -166,6 +194,8 @@ const AppBar = () => {
         </div>
 
         <IconButton
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           variant="text"
           color="blue-gray"
@@ -183,6 +213,8 @@ const AppBar = () => {
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
           <Button
+            onPointerEnterCapture={""}
+            onPointerLeaveCapture={""}
             placeholder=""
             variant="outlined"
             size="sm"
@@ -191,7 +223,14 @@ const AppBar = () => {
           >
             Log In
           </Button>
-          <Button placeholder={""} variant="gradient" size="sm" fullWidth>
+          <Button
+            onPointerEnterCapture={""}
+            onPointerLeaveCapture={""}
+            placeholder={""}
+            variant="gradient"
+            size="sm"
+            fullWidth
+          >
             Sign In
           </Button>
         </div>
