@@ -48,6 +48,8 @@ const AboutUsMenu = () => {
     <section className="flex flex-col  mt-1 gap-1 rounded-lg divide-y divide-dashed">
       <div className="px-5">
         <Typography
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           variant="h6"
           color="blue-gray"
@@ -69,8 +71,16 @@ const AboutUsMenu = () => {
         allowHover={true}
       >
         <MenuHandler>
-          <Typography placeholder={""} as="div" className="font-medium">
+          <Typography
+            onPointerEnterCapture={""}
+            onPointerLeaveCapture={""}
+            placeholder={""}
+            as="div"
+            className="font-medium"
+          >
             <ListItem
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               className="flex items-center gap-2 py-2 pr-4 text-[1.09rem]  text-gray-900"
               selected={isMenuOpen || isMobileMenuOpen}
@@ -92,7 +102,12 @@ const AboutUsMenu = () => {
             </ListItem>
           </Typography>
         </MenuHandler>
-        <MenuList placeholder={""} className="hidden  rounded-xl  lg:block">
+        <MenuList
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
+          placeholder={""}
+          className="hidden  rounded-xl  lg:block"
+        >
           <ul className="flex flex-col gap-y-2 outline-none outline-0">
             {renderItems}
           </ul>
