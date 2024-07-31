@@ -21,16 +21,36 @@ const ContactUs = ({ title }: contactUs) => {
       <div className="flex flex-row ">
         <section className="basis-4/6">
           <div className="w-full my-4">
-            <Input color="teal" label="Full Name" crossOrigin="" />
+            <Input
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
+              color="teal"
+              label="Full Name"
+              crossOrigin=""
+            />
           </div>
           <div className="w-full  my-4">
-            <Input color="teal" label="Your Email" crossOrigin="" />
+            <Input
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
+              color="teal"
+              label="Your Email"
+              crossOrigin=""
+            />
           </div>
           <div className="w-full  my-4">
-            <Input color="teal" label="Subject" crossOrigin="" />
+            <Input
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
+              color="teal"
+              label="Subject"
+              crossOrigin=""
+            />
           </div>
           <div className="w-full  my-4">
             <Textarea
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               size="lg"
               color="teal"
               label="Your Message"
