@@ -29,7 +29,13 @@ export default function Home() {
         <section className="basis-1/6  ">
           <div className="flex flex-col gap-2 ">
             <h5 className="font-semibold">Filter by Year</h5>
-            <Select placeholder={""} label="Select Year" color="green">
+            <Select
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
+              placeholder={""}
+              label="Select Year"
+              color="green"
+            >
               {years.map((year: string) => {
                 return <Option>{year}</Option>;
               })}
