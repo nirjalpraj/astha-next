@@ -128,6 +128,8 @@ const ElaboratedServiceMenu = () => {
     <section className="flex  mt-1 gap-1 rounded-lg divide-y divide-dashed">
       <div className="px-10 ">
         <Typography
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           variant="h6"
           color="blue-gray"
@@ -139,6 +141,8 @@ const ElaboratedServiceMenu = () => {
           {item.subtitles?.map((subItem) => {
             return (
               <Typography
+                onPointerEnterCapture={""}
+                onPointerLeaveCapture={""}
                 placeholder={""}
                 variant="paragraph"
                 className="text-sm text-black !font-medium  mb-1 hover:underline cursor-pointer"
@@ -162,8 +166,16 @@ const ElaboratedServiceMenu = () => {
         allowHover={true}
       >
         <MenuHandler>
-          <Typography placeholder={""} as="div" className="font-medium">
+          <Typography
+            onPointerEnterCapture={""}
+            onPointerLeaveCapture={""}
+            placeholder={""}
+            as="div"
+            className="font-medium"
+          >
             <ListItem
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               className="flex items-center gap-2 py-2 pr-4 text-[1.09rem]  text-gray-900"
               selected={isMenuOpen || isMobileMenuOpen}
@@ -186,11 +198,15 @@ const ElaboratedServiceMenu = () => {
           </Typography>
         </MenuHandler>
         <MenuList
+          onPointerEnterCapture={""}
+          onPointerLeaveCapture={""}
           placeholder={""}
           className="hidden max-w-screen-xl rounded-xl  lg:block"
         >
           <div>
             <Typography
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               className="font-bold text-2xl text-[#2C4373] px-10 "
             >
