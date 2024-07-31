@@ -18,6 +18,8 @@ const page = () => {
         <section className="basis-1/4 ">
           <div className="flex flex-col gap-2 py-7 sticky top-20 ">
             <Button
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               className="rounded-full w-52"
               color="green"
@@ -25,6 +27,8 @@ const page = () => {
               Annual Reports
             </Button>
             <Button
+              onPointerEnterCapture={""}
+              onPointerLeaveCapture={""}
               placeholder={""}
               className="rounded-full w-52  bg-gray-200 text-black font-light"
             >
